@@ -58,9 +58,7 @@ def iterative_quicksort(arr):
     stack.append((start, end))
 
     while stack:
-
         start, end = stack.pop()
-
         left, right = partition(arr, start, end)
 
         if right > start:
